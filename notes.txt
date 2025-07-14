@@ -1,0 +1,24 @@
+jQuery 
+
+Small JS library
+
+-->
+Document Traversal
+Manipulation
+Event Handling
+Animation
+
+
+
+// JavaScript
+document.getElementById('myElement').textContext = 'Hello, World ! ';
+
+//jQuery
+$('#myElement').text("Hello, World !");
+
+//Syntax
+$(selector).action()
+
+$ = shorthand jQuery function
+selector = string to get HTML Element
+action = jQuery method or function to perform work on the selected Elements
